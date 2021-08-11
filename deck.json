@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "76dbf185-fab2-11eb-9885-e03f49161c06",
-    "deck_config_uuid": "76dbf186-fab2-11eb-afe5-e03f49161c06",
+    "crowdanki_uuid": "a9cc864a-faad-11eb-91f4-e03f49161c06",
+    "deck_config_uuid": "a9ccad72-faad-11eb-8cb5-e03f49161c06",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "76dbf186-fab2-11eb-afe5-e03f49161c06",
+            "crowdanki_uuid": "a9ccad72-faad-11eb-8cb5-e03f49161c06",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
@@ -82,12 +82,12 @@
         "paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg",
         "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg"
     ],
-    "mid": 1542133267109,
+    "mid": 1628695129250,
     "name": "CrowdAnkiHDDA",
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "crowdanki_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
             "flds": [
                 {
@@ -112,7 +112,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Lückentext",
+            "name": "Lückentext-06f40",
             "req": [
                 [
                     0,
@@ -142,7 +142,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "crowdanki_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
@@ -167,7 +167,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Einfach-64e53",
+            "name": "Einfach",
             "req": [
                 [
                     0,
@@ -197,62 +197,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "76dc8da9-fab2-11eb-b078-e03f49161c06",
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}",
-            "flds": [
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Front",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Back",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": false
-                }
-            ],
-            "latexPost": "\\end{document}",
-            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
-            "latexsvg": false,
-            "name": "Basic (with code block styling)",
-            "req": [
-                [
-                    0,
-                    "any",
-                    [
-                        0
-                    ]
-                ]
-            ],
-            "sortf": 0,
-            "tags": [],
-            "tmpls": [
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
-                    "bafmt": "",
-                    "bfont": "",
-                    "bqfmt": "",
-                    "bsize": 0,
-                    "did": null,
-                    "name": "Card 1",
-                    "ord": 0,
-                    "qfmt": "{{Front}}"
-                }
-            ],
-            "type": 0,
-            "vers": []
-        },
-        {
-            "__type__": "NoteModel",
-            "crowdanki_uuid": "76dc8db2-fab2-11eb-93d2-e03f49161c06",
+            "crowdanki_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
@@ -277,7 +222,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Einfach (Antwort eintippen)-4abe5",
+            "name": "Einfach (Antwort eintippen)-4abe5-5056b",
             "req": [
                 [
                     0,
@@ -315,7 +260,7 @@
                 ""
             ],
             "guid": "E4f(>9pYj<",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -325,7 +270,7 @@
                 ""
             ],
             "guid": "of%6T77E:5",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -335,7 +280,7 @@
                 "Weil das Ergebnis der Rule 1 so heißt wie der Input von Rule 2, weiß Snakemake, was zumachen ist"
             ],
             "guid": "Q@*.L}L+>3",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -345,7 +290,7 @@
                 "<img src=\"paste-b44f7be3b1cbc9f54b264cee0e2a2f6e9b9f756f.jpg\">"
             ],
             "guid": "kw>`XtU^Z`",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -355,17 +300,7 @@
                 "in dem auch die zu verarbeitenden Daten liegen."
             ],
             "guid": "h+>x2w@!xe",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
-                "Snakemake Wildcards<div>wie würde man alle .txt Dateien im selben Directory wie das Snakefile als input verwenden</div>",
-                "rule eineRegel:<div>&nbsp; &nbsp; input:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"{Irgendwas}.txt\"</div>"
-            ],
-            "guid": "Igf.+dC1S`",
-            "note_model_uuid": "76dc8da9-fab2-11eb-b078-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -375,7 +310,7 @@
                 "<img src=\"paste-3940f2e2131ee250f56ae49447411120a2199d1f.jpg\">"
             ],
             "guid": "x%)`i)iq])",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -385,7 +320,7 @@
                 "<div>1) eine Liste mit den Filenames (oder deren Präfixen)</div><div>2) eine <b>rule </b>all als <u>erste Regel,</u> die als <b>Input </b>eine <b>expand</b>-Funktion enthält</div><div>3) expand erstellt alle Kombinationen aus dem Inhalt der Liste + Suffix; die Liste muss nach einem Komma genannt werden.</div><div><br></div><div><br></div><div><img src=\"paste-43b7886c3b59d6c66c5141cf79455a88d326af96.jpg\"><br></div>"
             ],
             "guid": "t.VPv2~jbP",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -395,7 +330,7 @@
                 "expand(“{sample}“, sample=SAMPLES)"
             ],
             "guid": "ICh;)O[Z!Y",
-            "note_model_uuid": "76dc8db2-fab2-11eb-93d2-e03f49161c06",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
             "tags": []
         },
         {
@@ -405,7 +340,7 @@
                 "<img src=\"paste-791a9c1feaf36e6a985418c4abf0b9d18366d25a.jpg\">"
             ],
             "guid": "saCe_/y>7l",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -415,7 +350,7 @@
                 "&lt;cores&gt;<div>Anzahl der CPU kerne</div>"
             ],
             "guid": "LrlNz*jW%l",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -425,7 +360,7 @@
                 "snakemake -n"
             ],
             "guid": "hxhapw]B`C",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -435,7 +370,7 @@
                 "Snakemake --rulegraph | dot -Tsvg &gt; rule.svg"
             ],
             "guid": "IBP}!mWZrT",
-            "note_model_uuid": "76dc8db2-fab2-11eb-93d2-e03f49161c06",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
             "tags": []
         },
         {
@@ -445,7 +380,7 @@
                 "Snakemake --dag | dot -Tsvg &gt; dag.svg"
             ],
             "guid": "q*,Ozp&kKY",
-            "note_model_uuid": "76dc8db2-fab2-11eb-93d2-e03f49161c06",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
             "tags": []
         },
         {
@@ -455,7 +390,7 @@
                 "rule graph:&nbsp; &nbsp; &nbsp; enthält nur die Reihenfolge der Rules ohne die Inputfiles zu beachten<div><img src=\"paste-0db4705cce0673b300d77b8f927f68dc474448a0.jpg\"><br><div><br></div><div>acyclic graph: enthält die Reihenfolge der Rules und die Inputfiles<br></div></div><div><img src=\"paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg\"><br></div>"
             ],
             "guid": "u&^Jcc>$<-",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -465,7 +400,7 @@
                 "(SAMPLES, NUMBERS) = glob_wildcards[“Samples/{sample}_{number}.fastq“]"
             ],
             "guid": "H@8vsqhjHB",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -475,7 +410,7 @@
                 "output:<div>&nbsp; &nbsp; temp(....)</div>"
             ],
             "guid": "soUVSF5=y2",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -485,7 +420,7 @@
                 "<img src=\"paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg\">"
             ],
             "guid": "uG&&Qv&;qy",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -495,7 +430,7 @@
                 "<img src=\"paste-a0d6ac944a3c58d7d8635c66da6e65776c9442b5.jpg\">"
             ],
             "guid": "HRv^qNqb.H",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -505,7 +440,7 @@
                 "eXtensible Markup Language"
             ],
             "guid": "m~<Yr9z=ny",
-            "note_model_uuid": "76dc8db2-fab2-11eb-93d2-e03f49161c06",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
             "tags": []
         },
         {
@@ -515,7 +450,7 @@
                 "Trennt Datenspeicherung von Datenpräsentation"
             ],
             "guid": "r}l_@PBA*S",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -525,7 +460,7 @@
                 "<img src=\"paste-65ed57dab523da914d0614f3e29de97b0cf61ecb.jpg\">"
             ],
             "guid": "vlxnc;+Q(^",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -535,7 +470,7 @@
                 ""
             ],
             "guid": "p3j7x(B248",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -545,7 +480,7 @@
                 "<img src=\"paste-d2ca3df4aee1bbc76d2ab41e47e34f52760b869a.jpg\">"
             ],
             "guid": "LF*t9sVt+a",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -555,7 +490,7 @@
                 "<img src=\"paste-36e39dc944239a322d19562a0acd914a75dc3617.jpg\">"
             ],
             "guid": "B^]udFIm6w",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -565,7 +500,7 @@
                 ""
             ],
             "guid": "jp%tujAF+B",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -575,7 +510,7 @@
                 ""
             ],
             "guid": "fQhp:Q/#$L",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -585,7 +520,7 @@
                 ""
             ],
             "guid": "b1Fj]tsl+D",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -595,7 +530,7 @@
                 ""
             ],
             "guid": "ko:0g+:b>9",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -605,7 +540,7 @@
                 ""
             ],
             "guid": "eqQG9yqTGr",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -615,7 +550,7 @@
                 ""
             ],
             "guid": "O|uc=qvi5{",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -625,7 +560,7 @@
                 ""
             ],
             "guid": "jU+Xk#Pc_z",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -635,7 +570,7 @@
                 "REpresentable State Transfer Architecture"
             ],
             "guid": "u|l)Yk1mDY",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -645,7 +580,7 @@
                 ""
             ],
             "guid": "x./5,Pf&.5",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -655,7 +590,7 @@
                 ""
             ],
             "guid": "Q1W:x1Lk@M",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -665,7 +600,7 @@
                 ""
             ],
             "guid": "g+w7&&Cc91",
-            "note_model_uuid": "76dc669f-fab2-11eb-866a-e03f49161c06",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
             "tags": []
         },
         {
@@ -675,7 +610,7 @@
                 "<img src=\"paste-77671e29530ebdc040a04d1bdb175be8b4c8b2eb.jpg\">"
             ],
             "guid": "pkXrv}=Z;,",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -685,7 +620,7 @@
                 "<img src=\"paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg\">"
             ],
             "guid": "e]<@~vv+zj",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -695,7 +630,7 @@
                 "<img src=\"paste-38d704a081f1b3699a701c592f8fc17a5da9c1f5.jpg\">"
             ],
             "guid": "vR$+mQM,w5",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -705,7 +640,7 @@
                 "<img src=\"paste-1202b33a332cd0e656e0df7b436c04d8a260a513.jpg\">"
             ],
             "guid": "A3ihIU)7kx",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -715,7 +650,7 @@
                 "<img src=\"paste-a8097833860c94f71945290ffb06ecc2cfb704b5.jpg\">"
             ],
             "guid": "E5Cn;=![9Y",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -725,7 +660,7 @@
                 "<img src=\"paste-934d6abb44fc1b8765aed9e8e0c1b908f1403fc8.jpg\">"
             ],
             "guid": "O2iz>cJHJx",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -735,7 +670,7 @@
                 "<img src=\"paste-af5ee950edd8566ba382887a02e3de81d7d7f906.jpg\">"
             ],
             "guid": "ojj,mO((C)",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -745,7 +680,7 @@
                 "<img src=\"paste-a06aca600b90fffe2d8e7f4ff730fdc1f91c6438.jpg\">"
             ],
             "guid": "HKuBmRo4X=",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -755,7 +690,7 @@
                 "<img src=\"paste-7d919bfbb147396a677b66d32dcaf966386b8619.jpg\">"
             ],
             "guid": "h=Wig${fW|",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         },
         {
@@ -765,7 +700,27 @@
                 "Der Client bekommt vom Server auch die Optionen, die er noch hat, um mit dem Server zu interagiern.<div>Die Application State wird dem Clienten auch mitgeteilt.</div>"
             ],
             "guid": "Fi*_w#M^]]",
-            "note_model_uuid": "76dc66a8-fab2-11eb-9370-e03f49161c06",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Das ist eine Testkarte",
+                "Test"
+            ],
+            "guid": "eMm,vW9%O-",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "katze ist ein",
+                "säugetier"
+            ],
+            "guid": "eq[lS&rYjD",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
             "tags": []
         }
     ]
