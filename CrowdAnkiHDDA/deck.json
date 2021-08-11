@@ -1,0 +1,772 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "a9cc864a-faad-11eb-91f4-e03f49161c06",
+    "deck_config_uuid": "a9ccad72-faad-11eb-8cb5-e03f49161c06",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "a9ccad72-faad-11eb-8cb5-e03f49161c06",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2360,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 40,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-0db4705cce0673b300d77b8f927f68dc474448a0.jpg",
+        "paste-1202b33a332cd0e656e0df7b436c04d8a260a513.jpg",
+        "paste-36e39dc944239a322d19562a0acd914a75dc3617.jpg",
+        "paste-38d704a081f1b3699a701c592f8fc17a5da9c1f5.jpg",
+        "paste-3940f2e2131ee250f56ae49447411120a2199d1f.jpg",
+        "paste-43b7886c3b59d6c66c5141cf79455a88d326af96.jpg",
+        "paste-65ed57dab523da914d0614f3e29de97b0cf61ecb.jpg",
+        "paste-77671e29530ebdc040a04d1bdb175be8b4c8b2eb.jpg",
+        "paste-791a9c1feaf36e6a985418c4abf0b9d18366d25a.jpg",
+        "paste-7d919bfbb147396a677b66d32dcaf966386b8619.jpg",
+        "paste-934d6abb44fc1b8765aed9e8e0c1b908f1403fc8.jpg",
+        "paste-a06aca600b90fffe2d8e7f4ff730fdc1f91c6438.jpg",
+        "paste-a0d6ac944a3c58d7d8635c66da6e65776c9442b5.jpg",
+        "paste-a8097833860c94f71945290ffb06ecc2cfb704b5.jpg",
+        "paste-af5ee950edd8566ba382887a02e3de81d7d7f906.jpg",
+        "paste-b44f7be3b1cbc9f54b264cee0e2a2f6e9b9f756f.jpg",
+        "paste-d2ca3df4aee1bbc76d2ab41e47e34f52760b869a.jpg",
+        "paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg",
+        "paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg",
+        "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg"
+    ],
+    "mid": 1542133267109,
+    "name": "CrowdAnkiHDDA",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Lückentext",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Lückentext",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a9cd496c-faad-11eb-b447-e03f49161c06",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (with code block styling)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach (Antwort eintippen)-4abe5",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{Vorderseite}}\n\n<hr id=answer>\n\n{{type:Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}\n\n{{type:Rückseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake ist ein&nbsp;{{c1::Workflow Management}} System.<div>Es dient also der {{c3::Automatisierung}} von Workflows und stellt sicher, dass diese {{c3::reproduzierbar}} und {{c3::skalierbar}} sind.</div><div><div>Es basiert auf&nbsp;{{c2::Python}} code.</div></div>",
+                ""
+            ],
+            "guid": "E4f(>9pYj<",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake workflows folgen dem GNU Make paradigma.<div>Das heißt die {{c1::Target-Rule}} beschreibt, {{c2::welche Dateien am Ende herauskommen sollen}} und</div><div>die {{c3::Rules}} beschreiben {{c4::die dafür nötigen Zwischenschritte}}.</div>",
+                ""
+            ],
+            "guid": "of%6T77E:5",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake erkennt die Abhängigkeiten der Rules anhand {{c1::der Dateinamen}}.",
+                "Weil das Ergebnis der Rule 1 so heißt wie der Input von Rule 2, weiß Snakemake, was zumachen ist"
+            ],
+            "guid": "Q@*.L}L+>3",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aufbau einer Snakemake rule",
+                "<img src=\"paste-b44f7be3b1cbc9f54b264cee0e2a2f6e9b9f756f.jpg\">"
+            ],
+            "guid": "kw>`XtU^Z`",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Üblicherweise liegt das Snakefile in dem Ordner,",
+                "in dem auch die zu verarbeitenden Daten liegen."
+            ],
+            "guid": "h+>x2w@!xe",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake Wildcards<div>wie würde man alle .txt Dateien im selben Directory wie das Snakefile als input verwenden</div>",
+                "rule eineRegel:<div>&nbsp; &nbsp; input:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"{Irgendwas}.txt\"</div>"
+            ],
+            "guid": "Igf.+dC1S`",
+            "note_model_uuid": "a9cd496c-faad-11eb-b447-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie schreibt man in Snakemake eine Target rule?",
+                "<img src=\"paste-3940f2e2131ee250f56ae49447411120a2199d1f.jpg\">"
+            ],
+            "guid": "x%)`i)iq])",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie muss ein Snakefile geschrieben sein, damit es bequem viele Dateien bearbeiten kann?",
+                "<div>1) eine Liste mit den Filenames (oder deren Präfixen)</div><div>2) eine <b>rule </b>all als <u>erste Regel,</u> die als <b>Input </b>eine <b>expand</b>-Funktion enthält</div><div>3) expand erstellt alle Kombinationen aus dem Inhalt der Liste + Suffix; die Liste muss nach einem Komma genannt werden.</div><div><br></div><div><br></div><div><img src=\"paste-43b7886c3b59d6c66c5141cf79455a88d326af96.jpg\"><br></div>"
+            ],
+            "guid": "t.VPv2~jbP",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schreibe die Expandfunktion für das Snakefile. Der Variablenname soll <u>sample </u>sein. Die Dateinamen sind in der Liste SAMPLES gespeichert. Es soll <u>kein Suffix </u>angehängt werden.",
+                "expand(“{sample}“, sample=SAMPLES)"
+            ],
+            "guid": "ICh;)O[Z!Y",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "In Snakemake sind mehrere Wildcards in einer Expand-Funktion möglich.&nbsp;<div>z.B. text mit 1 oder 2 als Suffix</div>",
+                "<img src=\"paste-791a9c1feaf36e6a985418c4abf0b9d18366d25a.jpg\">"
+            ],
+            "guid": "saCe_/y>7l",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "snakemake -j &lt;?&gt;",
+                "&lt;cores&gt;<div>Anzahl der CPU kerne</div>"
+            ],
+            "guid": "LrlNz*jW%l",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Komando um zu prüfen, ob das Snakefile richtig geschrieben ist.",
+                "snakemake -n"
+            ],
+            "guid": "hxhapw]B`C",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erzeugen eines Rule graphs mit snakemake",
+                "Snakemake --rulegraph | dot -Tsvg &gt; rule.svg"
+            ],
+            "guid": "IBP}!mWZrT",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erzeugen eines acycilc graph mit snakemake",
+                "Snakemake --dag | dot -Tsvg &gt; dag.svg"
+            ],
+            "guid": "q*,Ozp&kKY",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Unterschied zwischen acyclic graph and Rule graph",
+                "rule graph:&nbsp; &nbsp; &nbsp; enthält nur die Reihenfolge der Rules ohne die Inputfiles zu beachten<div><img src=\"paste-0db4705cce0673b300d77b8f927f68dc474448a0.jpg\"><br><div><br></div><div>acyclic graph: enthält die Reihenfolge der Rules und die Inputfiles<br></div></div><div><img src=\"paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg\"><br></div>"
+            ],
+            "guid": "u&^Jcc>$<-",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "nutzen der golb_wildcards funktion in Snakemake um z.B. alle .fastq Dateien in einem Verzeichnis zu verarbeiten.",
+                "(SAMPLES, NUMBERS) = glob_wildcards[“Samples/{sample}_{number}.fastq“]"
+            ],
+            "guid": "H@8vsqhjHB",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bei&nbsp; Snakemake Workflow den Output von Zwischenschritten nur temporär abspeichern",
+                "output:<div>&nbsp; &nbsp; temp(....)</div>"
+            ],
+            "guid": "soUVSF5=y2",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake mit mehreren Threads laufen lassen;<div>Sind auf einem System mehrere CPU-kerne verfügbar, macht es sinn diese auch zu nutzen.</div><div>Profitieren einige in rules difinierte Programme von mehrern Kernen, kann man in der rule einen {{c1::threads: n Parameter}} vor dem Shell-Aufruf definieren und die threads Variable im Shell-Aufruf benutzen. Der Snakemake Scheduler verteilt die Cores dann.</div>",
+                "<img src=\"paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg\">"
+            ],
+            "guid": "uG&&Qv&;qy",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake<div>mit einem Config file kann man die {{c1::Zuordnung der Samples vom Snakefile}} trennen.</div><div>Eine Configdatei kann im&nbsp;{{c2::JASON oder YAML}} Format schreiben.</div><div>Die Configdatei muss am Anfang des Snakefiles mit&nbsp;{{c3::configfile: “config.yaml”}} angegeben werden.</div>",
+                "<img src=\"paste-a0d6ac944a3c58d7d8635c66da6e65776c9442b5.jpg\">"
+            ],
+            "guid": "HRv^qNqb.H",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML steht für",
+                "eXtensible Markup Language"
+            ],
+            "guid": "m~<Yr9z=ny",
+            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aufgabe einer Markup Language (=Auszeichnungssprache)",
+                "Trennt Datenspeicherung von Datenpräsentation"
+            ],
+            "guid": "r}l_@PBA*S",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML&nbsp;Struktur<div>Geformt wie {{c2::ein Baum}}&nbsp;<div>Anfangs {{c3::Prolog mit XML Version und Character Encoding }}</div><div>Besteht aus {{c4::Elementen}}&nbsp;&nbsp;</div><div>Der XML-Baum startet mit einem {{c5::Wurzel-Element und alle Zweige davon sind die Kinder-Elemente (root element, child elements) }}</div><div>Jedes Element kann {{c1::Elemente beinhalten}}</div></div>",
+                "<img src=\"paste-65ed57dab523da914d0614f3e29de97b0cf61ecb.jpg\">"
+            ],
+            "guid": "vlxnc;+Q(^",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML Elemente<div>Der Inhalt eines Elemets steht zwischen {{c1::Start- &lt;b&gt; und End- &lt;\\b&gt; tag}}<br></div><div>Tags beachten&nbsp;{{c2::Groß/Kleinschreibung}}</div><div>Leere Elemente können auch so geschriben werden:&nbsp;{{c3:: &lt;element \\&gt;}}</div>",
+                ""
+            ],
+            "guid": "p3j7x(B248",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML Attribute<div><br></div><div>Enthalten Data zu einem spezifischen Element<br></div><div>Attributwerte stehen immer {{c1::in Anführungszeichen (single or double)}}</div><div>können nur&nbsp;{{c2::einen einzigen Wert enthalten}}</div>",
+                "<img src=\"paste-d2ca3df4aee1bbc76d2ab41e47e34f52760b869a.jpg\">"
+            ],
+            "guid": "LF*t9sVt+a",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML Entitäten<div>Weil manche Zeichen eine besondere Bedeutung in XML haben, beschreibt man sie innerhalb eines Elements mit einer andern Zeichenfolge.</div><div><br></div><div>&lt;&nbsp;{{c1::&amp;lt}}</div><div>&gt; {{c3::&amp;gt}}<br></div><div>&amp;&nbsp;{{c2::&amp;amp}}</div><div>'&nbsp;{{c4::&amp;apos}}</div><div>\"&nbsp;{{c5::&amp;quot}}</div>",
+                "<img src=\"paste-36e39dc944239a322d19562a0acd914a75dc3617.jpg\">"
+            ],
+            "guid": "B^]udFIm6w",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML namespaces<div>Verschiedene Elemente brauchen verschiedene Bezeichnungen, sonst weiß man nicht, was mit ihnen gemeint ist.&nbsp;</div><div>Einfache Lösung:&nbsp;{{c1::Nutzen von Präfixen}}</div>",
+                ""
+            ],
+            "guid": "jp%tujAF+B",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ein XML Dokument ist wohlgeformt \nwenn …<div><br></div><div>{{c1::es nur ein Wurzelelment hat}}<br></div><div>{{c2:: jedes Element einen schließenden Tag hat}}</div><div>{{c3::jeder Tag höchstens ein Attribut hat und dieses in Quotationmarks steht}}<br></div><div>{{c4::alle Elemente korrekt verschachtelt sind}}<br></div>",
+                ""
+            ],
+            "guid": "fQhp:Q/#$L",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "XML Parser<div><br></div><div>SAX:&nbsp;{{c1:Event-basierte Methode, d.h. Aktionen bei Start und Ende eines Tags, bei \nDokumentbeginn, usw.; unflexibel aber Ressourcen-sparend}}</div><div><br></div><div>DOM:&nbsp;{{c2:: 1 zu 1 Repräsentation im Arbeitsspeicher: gut/schnell für kleine Dokumente; hoher Speicherbedarf; Wahlfreie Navigation incl. Manipulation}}</div>",
+                ""
+            ],
+            "guid": "b1Fj]tsl+D",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "JASON<div>steht für&nbsp;{{c1::JavaScript Object Notation}}</div><div>ist&nbsp;{{c2::key-value based}} --&gt; leicht parsebar und leicht von Menschen zu verstehen&nbsp;</div><div>besteht im Grunde aus 3 Dingen&nbsp;{{c3::objects, arrays, values}}</div>",
+                ""
+            ],
+            "guid": "ko:0g+:b>9",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jason Array<div>beginnen und enden mit&nbsp;{{c1::geschweiften Klammern \"[]\" }}</div><div>enthält&nbsp;{{c2::string, number, object, array, boolean, oder null}}</div><div><br></div>",
+                ""
+            ],
+            "guid": "eqQG9yqTGr",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "JASON strings<div>brauchen&nbsp;{{c1::quotes \"\"}}</div><div>Sonderzeichen können mit&nbsp;{{c2::\\Zeichen z.B. \\\", \\\\, \\b, \\n, \\t}} eingefügt werden.</div>",
+                ""
+            ],
+            "guid": "O|uc=qvi5{",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ein Webservice ist eine Softwareanwendung, {{c1::die über ein Netzwerk für die direkte Maschine-Maschine-Interaktion bereitgestellt wird}}.&nbsp;<div>Jeder Webservice besitzt einen {{c2::Uniform Resource Identifier URI, über die sie eindeutig identifizierbar}} ist.</div>",
+                ""
+            ],
+            "guid": "jU+Xk#Pc_z",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "REST steht für",
+                "REpresentable State Transfer Architecture"
+            ],
+            "guid": "u|l)Yk1mDY",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rest basiert auf 6 Eigenschaften, die ein Dienst haben muss:<div><br></div><div>{{c1::Client-Server: User-Interface ist vom Datenspeicher getrennt; bei Bedarf stellt Server dem Clienten die Daten zu verfügung}}<br></div><div>{{c2::Zustandslosigkeit: Jede Anfrage des Clienten an den Server muss alle nötigen Informationen enthlten}}<br></div><div>{{c3::Caching: HTTP Caching soll genutzt werden. Daten sollen im-/explizit als cacheable markiert werden}}<br></div><div>Wichtigestes Merkmal von REST{{c4::Einheitliche Schnittstelle: jeder Dienst hat eindeutige Adresse (URL); Kann verschiedene Repräsentationen von Ressourcen wählen (JASON, XML), nutzt Selbstbeschreibende Nachrichten, HATEOS}}<br></div><div>{{c5::mehrschichtige Systeme: ermöglicht es dem Anwender nur eine Schnittstelle zupräsentieren uns Funktionalität zu verbergen}}<br></div><div>{{c6::Code on Demand (optional): Client Funktionalität wirs durch den Download und das Ausführen von Code in Form eines Applets oder Skripts ermöglicht.}}<br></div>",
+                ""
+            ],
+            "guid": "x./5,Pf&.5",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wichtigestes Merkmal von REST{{c1::Einheitliche Schnittstelle}}:&nbsp;<div><br><div>jeder Dienst hat {{c2::eindeutige Adresse (URL)}};</div><div>Kann verschiedene {{c3::Repräsentationen von Ressourcen wählen (JASON, XML)}}</div><div>nutzt {{c4::Selbstbeschreibende Nachrichten HTTP-Verben}}</div><div>{{c5::HATEOS: Hypermedia as the Engine of Application State}}</div></div>",
+                ""
+            ],
+            "guid": "Q1W:x1Lk@M",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verben<div><br></div><div>Nullipotent:&nbsp;{{c1::Keinen Einfluss auf dem Server; keine Datenveränderung möglich}}</div><div>Idempotent:&nbsp;{{c2::Das erste Ausführen hat den selben Effekt wie mehrmaliges Ausführen; z.B. Löschen einer Datei}}</div>",
+                ""
+            ],
+            "guid": "g+w7&&Cc91",
+            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>GET</div>",
+                "<img src=\"paste-77671e29530ebdc040a04d1bdb175be8b4c8b2eb.jpg\">"
+            ],
+            "guid": "pkXrv}=Z;,",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>HEAD</div>",
+                "<img src=\"paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg\">"
+            ],
+            "guid": "e]<@~vv+zj",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP Verb<div>OPTIONS</div>",
+                "<img src=\"paste-38d704a081f1b3699a701c592f8fc17a5da9c1f5.jpg\">"
+            ],
+            "guid": "vR$+mQM,w5",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>CONNECT</div>",
+                "<img src=\"paste-1202b33a332cd0e656e0df7b436c04d8a260a513.jpg\">"
+            ],
+            "guid": "A3ihIU)7kx",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>TRACE</div>",
+                "<img src=\"paste-a8097833860c94f71945290ffb06ecc2cfb704b5.jpg\">"
+            ],
+            "guid": "E5Cn;=![9Y",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>POST</div>",
+                "<img src=\"paste-934d6abb44fc1b8765aed9e8e0c1b908f1403fc8.jpg\">"
+            ],
+            "guid": "O2iz>cJHJx",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>PATCH</div>",
+                "<img src=\"paste-af5ee950edd8566ba382887a02e3de81d7d7f906.jpg\">"
+            ],
+            "guid": "ojj,mO((C)",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>PUT</div>",
+                "<img src=\"paste-a06aca600b90fffe2d8e7f4ff730fdc1f91c6438.jpg\">"
+            ],
+            "guid": "HKuBmRo4X=",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP-Verb<div>DELETE</div>",
+                "<img src=\"paste-7d919bfbb147396a677b66d32dcaf966386b8619.jpg\">"
+            ],
+            "guid": "h=Wig${fW|",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Hypermedia as the Engine of Application State HATEOAS",
+                "Der Client bekommt vom Server auch die Optionen, die er noch hat, um mit dem Server zu interagiern.<div>Die Application State wird dem Clienten auch mitgeteilt.</div>"
+            ],
+            "guid": "Fi*_w#M^]]",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        }
+    ]
+}
