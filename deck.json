@@ -1,13 +1,13 @@
 {
     "__type__": "Deck",
     "children": [],
-    "crowdanki_uuid": "a9cc864a-faad-11eb-91f4-e03f49161c06",
-    "deck_config_uuid": "a9ccad72-faad-11eb-8cb5-e03f49161c06",
+    "crowdanki_uuid": "84cad337-fb71-11eb-9b96-e03f49161c06",
+    "deck_config_uuid": "84cb91ef-fb71-11eb-ba07-e03f49161c06",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "a9ccad72-faad-11eb-8cb5-e03f49161c06",
+            "crowdanki_uuid": "84cb91ef-fb71-11eb-ba07-e03f49161c06",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
@@ -61,8 +61,11 @@
     "extendNew": 0,
     "extendRev": 0,
     "media_files": [
+        "data-model-1.png",
         "paste-0db4705cce0673b300d77b8f927f68dc474448a0.jpg",
         "paste-1202b33a332cd0e656e0df7b436c04d8a260a513.jpg",
+        "paste-1b6a1b69da1d365683b24eb6db5087d588b0762b.jpg",
+        "paste-1c223c4435b56fac5b3a8a84299ec4ef8a70d231.jpg",
         "paste-36e39dc944239a322d19562a0acd914a75dc3617.jpg",
         "paste-38d704a081f1b3699a701c592f8fc17a5da9c1f5.jpg",
         "paste-3940f2e2131ee250f56ae49447411120a2199d1f.jpg",
@@ -80,15 +83,14 @@
         "paste-d2ca3df4aee1bbc76d2ab41e47e34f52760b869a.jpg",
         "paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg",
         "paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg",
-        "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg",
-        "paste-f44aaefa65cdf06eb4f967edaa76edb910ad3a87.jpg"
+        "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg"
     ],
-    "mid": 1628695129250,
+    "mid": 1560796079948,
     "name": "CrowdAnkiHDDA",
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "crowdanki_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
             "flds": [
                 {
@@ -113,7 +115,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Lückentext-06f40",
+            "name": "Lückentext",
             "req": [
                 [
                     0,
@@ -124,7 +126,9 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "Softwareverfügbarkeit"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
@@ -143,7 +147,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "crowdanki_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
@@ -179,7 +183,9 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "Softwareverfügbarkeit"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
@@ -198,7 +204,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "a9cd496c-faad-11eb-b447-e03f49161c06",
+            "crowdanki_uuid": "84cc0459-fb71-11eb-b3dc-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}",
             "flds": [
                 {
@@ -253,7 +259,7 @@
         },
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "crowdanki_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
@@ -278,7 +284,7 @@
             "latexPost": "\\end{document}",
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
             "latexsvg": false,
-            "name": "Einfach (Antwort eintippen)-4abe5-5056b",
+            "name": "Einfach (Antwort eintippen)-4abe5",
             "req": [
                 [
                     0,
@@ -290,7 +296,10 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "Rückblick",
+                "m-bs1-es"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{Vorderseite}}\n\n<hr id=answer>\n\n{{type:Rückseite}}",
@@ -316,7 +325,7 @@
                 ""
             ],
             "guid": "E4f(>9pYj<",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -326,7 +335,7 @@
                 ""
             ],
             "guid": "of%6T77E:5",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -336,7 +345,7 @@
                 "Weil das Ergebnis der Rule 1 so heißt wie der Input von Rule 2, weiß Snakemake, was zumachen ist"
             ],
             "guid": "Q@*.L}L+>3",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -346,10 +355,8 @@
                 "<img src=\"paste-b44f7be3b1cbc9f54b264cee0e2a2f6e9b9f756f.jpg\">"
             ],
             "guid": "kw>`XtU^Z`",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": [
-                "Snakemake"
-            ]
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -358,7 +365,7 @@
                 "in dem auch die zu verarbeitenden Daten liegen."
             ],
             "guid": "h+>x2w@!xe",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -368,7 +375,7 @@
                 "rule eineRegel:<div>&nbsp; &nbsp; input:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"{Irgendwas}.txt\"</div>"
             ],
             "guid": "Igf.+dC1S`",
-            "note_model_uuid": "a9cd496c-faad-11eb-b447-e03f49161c06",
+            "note_model_uuid": "84cc0459-fb71-11eb-b3dc-e03f49161c06",
             "tags": []
         },
         {
@@ -378,7 +385,7 @@
                 "<img src=\"paste-3940f2e2131ee250f56ae49447411120a2199d1f.jpg\">"
             ],
             "guid": "x%)`i)iq])",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -388,7 +395,7 @@
                 "<div>1) eine Liste mit den Filenames (oder deren Präfixen)</div><div>2) eine <b>rule </b>all als <u>erste Regel,</u> die als <b>Input </b>eine <b>expand</b>-Funktion enthält</div><div>3) expand erstellt alle Kombinationen aus dem Inhalt der Liste + Suffix; die Liste muss nach einem Komma genannt werden.</div><div><br></div><div><br></div><div><img src=\"paste-43b7886c3b59d6c66c5141cf79455a88d326af96.jpg\"><br></div>"
             ],
             "guid": "t.VPv2~jbP",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -398,7 +405,7 @@
                 "expand(“{sample}“, sample=SAMPLES)"
             ],
             "guid": "ICh;)O[Z!Y",
-            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
             "tags": []
         },
         {
@@ -408,7 +415,7 @@
                 "<img src=\"paste-791a9c1feaf36e6a985418c4abf0b9d18366d25a.jpg\">"
             ],
             "guid": "saCe_/y>7l",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -418,7 +425,7 @@
                 "&lt;cores&gt;<div>Anzahl der CPU kerne</div>"
             ],
             "guid": "LrlNz*jW%l",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -428,7 +435,7 @@
                 "snakemake -n"
             ],
             "guid": "hxhapw]B`C",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -438,7 +445,7 @@
                 "Snakemake --rulegraph | dot -Tsvg &gt; rule.svg"
             ],
             "guid": "IBP}!mWZrT",
-            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
             "tags": []
         },
         {
@@ -448,7 +455,7 @@
                 "Snakemake --dag | dot -Tsvg &gt; dag.svg"
             ],
             "guid": "q*,Ozp&kKY",
-            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
             "tags": []
         },
         {
@@ -458,7 +465,7 @@
                 "rule graph:&nbsp; &nbsp; &nbsp; enthält nur die Reihenfolge der Rules ohne die Inputfiles zu beachten<div><img src=\"paste-0db4705cce0673b300d77b8f927f68dc474448a0.jpg\"><br><div><br></div><div>acyclic graph: enthält die Reihenfolge der Rules und die Inputfiles<br></div></div><div><img src=\"paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg\"><br></div>"
             ],
             "guid": "u&^Jcc>$<-",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -468,7 +475,7 @@
                 "(SAMPLES, NUMBERS) = glob_wildcards[“Samples/{sample}_{number}.fastq“]"
             ],
             "guid": "H@8vsqhjHB",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -478,10 +485,8 @@
                 "output:<div>&nbsp; &nbsp; temp(....)</div>"
             ],
             "guid": "soUVSF5=y2",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": [
-                "Snakemake"
-            ]
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -490,7 +495,7 @@
                 "<img src=\"paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg\">"
             ],
             "guid": "uG&&Qv&;qy",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -500,7 +505,7 @@
                 "<img src=\"paste-a0d6ac944a3c58d7d8635c66da6e65776c9442b5.jpg\">"
             ],
             "guid": "HRv^qNqb.H",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -510,7 +515,7 @@
                 "eXtensible Markup Language"
             ],
             "guid": "m~<Yr9z=ny",
-            "note_model_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
             "tags": []
         },
         {
@@ -520,10 +525,8 @@
                 "Trennt Datenspeicherung von Datenpräsentation"
             ],
             "guid": "r}l_@PBA*S",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": [
-                "Markup"
-            ]
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": []
         },
         {
             "__type__": "Note",
@@ -532,7 +535,7 @@
                 "<img src=\"paste-65ed57dab523da914d0614f3e29de97b0cf61ecb.jpg\">"
             ],
             "guid": "vlxnc;+Q(^",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -542,7 +545,7 @@
                 ""
             ],
             "guid": "p3j7x(B248",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -552,7 +555,7 @@
                 "<img src=\"paste-d2ca3df4aee1bbc76d2ab41e47e34f52760b869a.jpg\">"
             ],
             "guid": "LF*t9sVt+a",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -562,7 +565,7 @@
                 "<img src=\"paste-36e39dc944239a322d19562a0acd914a75dc3617.jpg\">"
             ],
             "guid": "B^]udFIm6w",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -572,7 +575,7 @@
                 ""
             ],
             "guid": "jp%tujAF+B",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -582,7 +585,7 @@
                 ""
             ],
             "guid": "fQhp:Q/#$L",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -592,7 +595,7 @@
                 ""
             ],
             "guid": "b1Fj]tsl+D",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -602,7 +605,7 @@
                 ""
             ],
             "guid": "ko:0g+:b>9",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -612,7 +615,7 @@
                 ""
             ],
             "guid": "eqQG9yqTGr",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -622,7 +625,7 @@
                 ""
             ],
             "guid": "O|uc=qvi5{",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -632,7 +635,7 @@
                 ""
             ],
             "guid": "jU+Xk#Pc_z",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -642,7 +645,7 @@
                 "REpresentable State Transfer Architecture"
             ],
             "guid": "u|l)Yk1mDY",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -652,7 +655,7 @@
                 ""
             ],
             "guid": "x./5,Pf&.5",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -662,7 +665,7 @@
                 ""
             ],
             "guid": "Q1W:x1Lk@M",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -672,7 +675,7 @@
                 ""
             ],
             "guid": "g+w7&&Cc91",
-            "note_model_uuid": "a9ccfb57-faad-11eb-8e0d-e03f49161c06",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": []
         },
         {
@@ -682,7 +685,7 @@
                 "<img src=\"paste-77671e29530ebdc040a04d1bdb175be8b4c8b2eb.jpg\">"
             ],
             "guid": "pkXrv}=Z;,",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -692,7 +695,7 @@
                 "<img src=\"paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg\">"
             ],
             "guid": "e]<@~vv+zj",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -702,7 +705,7 @@
                 "<img src=\"paste-38d704a081f1b3699a701c592f8fc17a5da9c1f5.jpg\">"
             ],
             "guid": "vR$+mQM,w5",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -712,7 +715,7 @@
                 "<img src=\"paste-1202b33a332cd0e656e0df7b436c04d8a260a513.jpg\">"
             ],
             "guid": "A3ihIU)7kx",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -722,7 +725,7 @@
                 "<img src=\"paste-a8097833860c94f71945290ffb06ecc2cfb704b5.jpg\">"
             ],
             "guid": "E5Cn;=![9Y",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -732,7 +735,7 @@
                 "<img src=\"paste-934d6abb44fc1b8765aed9e8e0c1b908f1403fc8.jpg\">"
             ],
             "guid": "O2iz>cJHJx",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -742,7 +745,7 @@
                 "<img src=\"paste-af5ee950edd8566ba382887a02e3de81d7d7f906.jpg\">"
             ],
             "guid": "ojj,mO((C)",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -752,7 +755,7 @@
                 "<img src=\"paste-a06aca600b90fffe2d8e7f4ff730fdc1f91c6438.jpg\">"
             ],
             "guid": "HKuBmRo4X=",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -762,7 +765,7 @@
                 "<img src=\"paste-7d919bfbb147396a677b66d32dcaf966386b8619.jpg\">"
             ],
             "guid": "h=Wig${fW|",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
@@ -772,55 +775,234 @@
                 "Der Client bekommt vom Server auch die Optionen, die er noch hat, um mit dem Server zu interagiern.<div>Die Application State wird dem Clienten auch mitgeteilt.</div>"
             ],
             "guid": "Fi*_w#M^]]",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": []
         },
         {
             "__type__": "Note",
             "fields": [
-                "Git Befehle&nbsp;",
-                "clone<br>add<br>commit<br>push<br>pull<br>checkout<br>commit"
+                "Ein <a href=\"https://bitbucket.org/product/de/code-repository\">Git-Repository</a>\n ist ein {{c1::virtueller Speicher}} deines Projekts.&nbsp;",
+                "Damit kannst du Versionen deines Codes speichern und bei Bedarf auf sie zugreifen."
             ],
-            "guid": "vDcs1J#hRr",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "guid": "MyOnx|k1Gr",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Erstellen eines neuen Git-Repositorys:</div>mit&nbsp;{{c1::git&nbsp;init&nbsp;&lt;project&nbsp;directory&gt;}} erstellt man in aktuellen Verzeichnis (oder project&nbsp;directory) ein .git-Unterverzeichnis, das&nbsp;alle erforderlichen Git-Metadaten für das neue Repository enthält.<br>",
+                ""
+            ],
+            "guid": "Fw)b$kPGq}",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Code, um ein bestehendes Repository zu klonen:",
+                "<pre><code>git&nbsp;clone&nbsp;&lt;repo&nbsp;url&gt;</code></pre>"
+            ],
+            "guid": "j-A;w:U5f$",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Git verwendet eine {{c1::Snapshot-basierte&nbsp;}}Versionierung. Das heißt {{c2::jede Version referenziert alle in ihr enthaltenen Objekte. }}<div>Es gibt verschiedene Objekttypen:</div><div>Commit {{c3::die Version}}</div><div>Baum {{c4::analog zu Unix-Verzeichnissen}}</div><div>Bolb {{c5::repräsentiert in der Regel Dateien}}</div>",
+                "<img src=\"data-model-1.png\">"
+            ],
+            "guid": "pf=nXY@Pq]",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Git workflow<div>Um Dateien bearbeiten zu können,&nbsp;{{c1::müssen sie in das Working Directory ausgecheckt werden}}.</div><div>Um einen Commit zu erstellen, müssen die geänderten Daten zunächst in&nbsp;{{c2::den Sammelbereich/Staging area gesammelt werden}}.</div><div>Anschließend kann ein Commit erzeugt werden.</div>",
+                "<img src=\"paste-1b6a1b69da1d365683b24eb6db5087d588b0762b.jpg\">"
+            ],
+            "guid": "C!=)9XS@T{",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mit git&nbsp;{{c1::checkout}} kann man zwischen den&nbsp;{{c2::Versionen einens Projekts}} wechseln",
+                ""
+            ],
+            "guid": "oP8=O]Yv.?",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gute (git) Commit messages<div><br></div><div>Starten mit einer {{c1::Überschrifft}}, die das Wichtige das Commits zusammenfasst. Die&nbsp;{{c2:: Überschrift}} endet {{c3::nicht mit einem Punkt}} und ist {{c4::im Präsens}} geschrieben.</div><div>Die zweite Zeile ist immer&nbsp;{{c5::leer}}.</div><div>Schreibe in mehrern Zeilen, um horizontales Srcollen zu vermeiden.</div>",
+                ""
+            ],
+            "guid": "E$`[{{*ukJ",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kurzschreibweise, um einen neuen Branch zu erstellen und auf ihn zu wechseln.&nbsp;<div><br></div><div>#Git</div>",
+                "git checkout -b &lt;branch&gt;"
+            ],
+            "guid": "HaL~GhR%4z",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "{{c1::seqtk}}ist ein Tool zum Erstellen von Subsets aus .{{c2::fasta&nbsp;}}oder .{{c3::fastq&nbsp;}}Dateien.",
+                ""
+            ],
+            "guid": "tBK!Z6}-U_",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
             "tags": [
-                "Git"
+                "m-bs1-es",
+                "Rückblick"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Wie zeigt man alle Zweige in Git an?",
-                "git branch"
+                "Mit folgendem Befehl erstellt man ein Subset sample&nbsp;mit 100 Einträgen aus Bsp.fasta. Es soll der Seed 42 verwendet werden.",
+                "seqtk sample -s seed = 42 Bsp.fasta 100"
             ],
-            "guid": "b.:CbH_F3J",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "guid": "tL[I(##I8N",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
             "tags": [
-                "Git"
+                "m-bs1-es",
+                "Rückblick"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Wie schiebe ich geänderte dateien in die Staging Area?",
-                "git add &lt;file&gt;"
+                "Definition: Verteiltes System",
+                "Ein verteiltes System ist eine Sammlung autonomer Recheneinheiten, die für den Benutzer wie ein System aussehen."
             ],
-            "guid": "F^`l|zW}gA",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "guid": "lmMuD`@]XO",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": [
-                "Git"
+                "Systeme",
+                "Verteilte"
             ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Write a Nextflow Skript:<br>",
-                "<img src=\"paste-f44aaefa65cdf06eb4f967edaa76edb910ad3a87.jpg\">"
+                "<div>Motivation zur Nutzung von Tools zur Softwareverfügbarkeit&nbsp;</div>Bioinformatische Analysen bestehen oft aus {{c1::einer Kombination verschiedener Programme}}. Die Installation der Programme kann auf {{c2::heterogenen Systemen}} schwierig sein, da verschiedene {{c3::Abhängigkeiten (Bibliotheken, usw.) zu Inkompatibilitäten}} führen können.",
+                ""
             ],
-            "guid": "MFsf4L;5.,",
-            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "guid": "pFQ{?=n>qS",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": [
-                "Nextflow"
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Conda ist ein&nbsp;{{c1::Cross-Plattform Paket- und Umgebungsmanager}}.<div>Es ermöglicht es einfach verschiedene {{c2::Umgebungen}} zu erstellen und so verschiedene {{c3::Versionen gleicher Bibliotheken, Programme, ect.}} nebeneinander zu installieren. Probleme verschiedener {{c4::Abhängigkeiten}} können so gelöst werden.</div>",
+                ""
+            ],
+            "guid": "HUqUqa*7L?",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<u>Verwalten von Paketen mit Conda</u><div>Suchen\n{{c1::conda search &lt;paketname&gt;}}</div><div>Installieren\n{{c2::conda install &lt;paketname&gt;}}</div><div>Löschen\n{{c3::conda remove &lt;paketname&gt;}}</div><div>Aktualisieren\n{{c4::conda update &lt;paketname&gt;}}</div><div><br></div><div>Verwalten von Environments&nbsp;</div><div>Env erstellen\n{{c5::conda create -n &lt;name&gt; python=&lt;version&gt; &lt;pakete&gt;}}</div><div>Env aktivieren\n{{c6::conda activate &lt;name&gt;}}</div><div>Weiteres Paket in Env installieren\n{{c7::conda install -n &lt;name&gt; &lt;pakete&gt;}}</div><div>Env aus einer Datei erstellen\n{{c8::conda env create -f environment.yml}}</div>",
+                ""
+            ],
+            "guid": "zK3AOR@~sj",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Der Hyperviser sorgt bei der Virtualisierung dafür, dass",
+                "die Ressourcen konfliktfrei von den virtualisierten Systemen genutzt werden können"
+            ],
+            "guid": "5wI(~><St",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Containerengine",
+                "Software die Container verwaltet und ausführt"
+            ],
+            "guid": "NJftIM!X7a",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ein Container ist&nbsp;{{c1::eine laufende Instanz innerhalb einer \nContainerengine, z.B. ein Server oder eine \nAnalysesoftware}}. Sie ist in der Regel von dem System \nund anderen Containern isoliert.<div><br></div><div>Ein Image ist&nbsp;{{c2::die Vorlage für einen Container. Enthält alles \nwas zum Ausführen eines Containers nötig ist}}.</div>",
+                ""
+            ],
+            "guid": "e=Rnx2wD:<",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Docker ist die&nbsp;Prominenteste Containerengine.<div>Ein mögliches Problem von Docker v.a. bei Mehrbenutzersystemen ist, dass&nbsp;{{c1::der Docker Daemon mot Root Rechten läuft; jeder mit Zugriff auf den Deamon kann zum Root werden}}. Deswegen werden in solchen Fällen andere Containerengines wie zum Beispiel&nbsp;{{c2::Singularity}} genutzt.</div>",
+                ""
+            ],
+            "guid": "s4};bCWOA>",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Singularity<div>Vorteil: zum Ausführen von Singularity Containern sind {{c1::keine besonderen Rechte}} nötig. Diese benötigt man nur zum Bauen von Images.</div><div>Docker Images können automatisch nach {{c2::Singularity konvertiert}} werden.</div>",
+                ""
+            ],
+            "guid": "u_T6zu^=Uy",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ausführen eines Docker Conatainers mit Singularity",
+                "<img src=\"paste-1c223c4435b56fac5b3a8a84299ec4ef8a70d231.jpg\">"
+            ],
+            "guid": "DC()}affk9",
+            "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
+            "tags": [
+                "Softwareverfügbarkeit"
             ]
         }
     ]
