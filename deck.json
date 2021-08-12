@@ -80,7 +80,8 @@
         "paste-d2ca3df4aee1bbc76d2ab41e47e34f52760b869a.jpg",
         "paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg",
         "paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg",
-        "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg"
+        "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg",
+        "paste-f44aaefa65cdf06eb4f967edaa76edb910ad3a87.jpg"
     ],
     "mid": 1628695129250,
     "name": "CrowdAnkiHDDA",
@@ -197,6 +198,61 @@
         },
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "a9cd496c-faad-11eb-b447-e03f49161c06",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (with code block styling)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "a9cd4975-faad-11eb-862f-e03f49161c06",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
@@ -291,7 +347,9 @@
             ],
             "guid": "kw>`XtU^Z`",
             "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": []
+            "tags": [
+                "Snakemake"
+            ]
         },
         {
             "__type__": "Note",
@@ -301,6 +359,16 @@
             ],
             "guid": "h+>x2w@!xe",
             "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Snakemake Wildcards<div>wie würde man alle .txt Dateien im selben Directory wie das Snakefile als input verwenden</div>",
+                "rule eineRegel:<div>&nbsp; &nbsp; input:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; \"{Irgendwas}.txt\"</div>"
+            ],
+            "guid": "Igf.+dC1S`",
+            "note_model_uuid": "a9cd496c-faad-11eb-b447-e03f49161c06",
             "tags": []
         },
         {
@@ -411,7 +479,9 @@
             ],
             "guid": "soUVSF5=y2",
             "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": []
+            "tags": [
+                "Snakemake"
+            ]
         },
         {
             "__type__": "Note",
@@ -451,7 +521,9 @@
             ],
             "guid": "r}l_@PBA*S",
             "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": []
+            "tags": [
+                "Markup"
+            ]
         },
         {
             "__type__": "Note",
@@ -706,22 +778,50 @@
         {
             "__type__": "Note",
             "fields": [
-                "Das ist eine Testkarte",
-                "Test"
+                "Git Befehle&nbsp;",
+                "clone<br>add<br>commit<br>push<br>pull<br>checkout<br>commit"
             ],
-            "guid": "eMm,vW9%O-",
+            "guid": "vDcs1J#hRr",
             "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": []
+            "tags": [
+                "Git"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "katze ist ein",
-                "säugetier"
+                "Wie zeigt man alle Zweige in Git an?",
+                "git branch"
             ],
-            "guid": "eq[lS&rYjD",
+            "guid": "b.:CbH_F3J",
             "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
-            "tags": []
+            "tags": [
+                "Git"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie schiebe ich geänderte dateien in die Staging Area?",
+                "git add &lt;file&gt;"
+            ],
+            "guid": "F^`l|zW}gA",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": [
+                "Git"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Write a Nextflow Skript:<br>",
+                "<img src=\"paste-f44aaefa65cdf06eb4f967edaa76edb910ad3a87.jpg\">"
+            ],
+            "guid": "MFsf4L;5.,",
+            "note_model_uuid": "a9cd2266-faad-11eb-93b6-e03f49161c06",
+            "tags": [
+                "Nextflow"
+            ]
         }
     ]
 }
