@@ -85,7 +85,7 @@
         "paste-e5f81d58785e92292d0da9ebcf386806e100dade.jpg",
         "paste-ec637ebfdee83c1a39196e5d42f9522d46240826.jpg"
     ],
-    "mid": 1560796079948,
+    "mid": 1560796079886,
     "name": "CrowdAnkiHDDA",
     "note_models": [
         {
@@ -126,9 +126,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "Softwareverfügbarkeit"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
@@ -297,8 +295,7 @@
             ],
             "sortf": 0,
             "tags": [
-                "Rückblick",
-                "m-bs1-es"
+                "Parallelisierung"
             ],
             "tmpls": [
                 {
@@ -402,7 +399,7 @@
             "__type__": "Note",
             "fields": [
                 "Schreibe die Expandfunktion für das Snakefile. Der Variablenname soll <u>sample </u>sein. Die Dateinamen sind in der Liste SAMPLES gespeichert. Es soll <u>kein Suffix </u>angehängt werden.",
-                "expand(“{sample}“, sample=SAMPLES)"
+                "expand(\"{sample}\", sample=SAMPLES)"
             ],
             "guid": "ICh;)O[Z!Y",
             "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
@@ -491,7 +488,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Snakemake mit mehreren Threads laufen lassen;<div>Sind auf einem System mehrere CPU-kerne verfügbar, macht es sinn diese auch zu nutzen.</div><div>Profitieren einige in rules difinierte Programme von mehrern Kernen, kann man in der rule einen {{c1::threads: n Parameter}} vor dem Shell-Aufruf definieren und die threads Variable im Shell-Aufruf benutzen. Der Snakemake Scheduler verteilt die Cores dann.</div>",
+                "Snakemake mit mehreren Threads laufen lassen;<div>Sind auf einem System mehrere CPU-kerne verfügbar, macht es sinn diese auch zu nutzen.</div><div>Profitieren einige in rules definierte Programme von mehrern Kernen, kann man in der rule einen {{c1::threads: n Parameter}} vor dem Shell-Aufruf definieren und die threads Variable im Shell-Aufruf benutzen. Der Snakemake Scheduler verteilt die Cores dann.</div>",
                 "<img src=\"paste-e55778aacf68f620228b1e8740db04cc81d4b65f.jpg\">"
             ],
             "guid": "uG&&Qv&;qy",
@@ -501,7 +498,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Snakemake<div>mit einem Config file kann man die {{c1::Zuordnung der Samples vom Snakefile}} trennen.</div><div>Eine Configdatei kann im&nbsp;{{c2::JASON oder YAML}} Format schreiben.</div><div>Die Configdatei muss am Anfang des Snakefiles mit&nbsp;{{c3::configfile: “config.yaml”}} angegeben werden.</div>",
+                "Snakemake<div>mit einem Config file kann man die {{c1::Zuordnung der Samples vom Snakefile}} trennen.</div><div>Eine Configdatei kann man im&nbsp;{{c2::JASON oder YAML}} Format schreiben.</div><div>Die Configdatei muss am Anfang des Snakefiles mit&nbsp;{{c3::configfile: “config.yaml”}} angegeben werden.</div>",
                 "<img src=\"paste-a0d6ac944a3c58d7d8635c66da6e65776c9442b5.jpg\">"
             ],
             "guid": "HRv^qNqb.H",
@@ -841,16 +838,6 @@
         {
             "__type__": "Note",
             "fields": [
-                "Gute (git) Commit messages<div><br></div><div>Starten mit einer {{c1::Überschrifft}}, die das Wichtige das Commits zusammenfasst. Die&nbsp;{{c2:: Überschrift}} endet {{c3::nicht mit einem Punkt}} und ist {{c4::im Präsens}} geschrieben.</div><div>Die zweite Zeile ist immer&nbsp;{{c5::leer}}.</div><div>Schreibe in mehrern Zeilen, um horizontales Srcollen zu vermeiden.</div>",
-                ""
-            ],
-            "guid": "E$`[{{*ukJ",
-            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "fields": [
                 "Kurzschreibweise, um einen neuen Branch zu erstellen und auf ihn zu wechseln.&nbsp;<div><br></div><div>#Git</div>",
                 "git checkout -b &lt;branch&gt;"
             ],
@@ -861,7 +848,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "{{c1::seqtk}}ist ein Tool zum Erstellen von Subsets aus .{{c2::fasta&nbsp;}}oder .{{c3::fastq&nbsp;}}Dateien.",
+                "{{c1::seqtk}} ist ein Tool zum Erstellen von Subsets aus . {{c2::fasta}} oder.{{c3::fastq}} Dateien.",
                 ""
             ],
             "guid": "tBK!Z6}-U_",
@@ -1003,6 +990,66 @@
             "note_model_uuid": "84cc0453-fb71-11eb-9fbf-e03f49161c06",
             "tags": [
                 "Softwareverfügbarkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Syntax eines Bash for-loops;&nbsp;<div>nutze &lt;variable&gt;, &lt;statements&gt; und &lt;set&gt;</div>",
+                "for &lt;variable&gt;&nbsp;in &lt;set&gt;; do &lt;statements&gt;; done"
+            ],
+            "guid": "QTQCrMx4~h",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
+            "tags": [
+                "Parallelisierung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gebe die Zahlen 10, 20, 30, 40 durch einen Bash for-loop in der Komandozeile aus",
+                "<div><span style=\"font-weight: bold;\">for\nx in 10 20 30 40; do echo $x; done</span></div>"
+            ],
+            "guid": "Ie/h[1@e</",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
+            "tags": [
+                "Parallelisierung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schreibe in einer Zeile einen bash for-loop, der alle .fas Dateien im aktuellen Verzeichnis nach&nbsp;<span style=\"font-weight: bold;\">/</span><span style=\"font-weight: bold;\">vol</span><span style=\"font-weight: bold;\">/</span><span style=\"font-weight: bold;\">targetfolder</span><span style=\"font-weight: bold;\">/ kopiert.</span>",
+                "<div><span style=\"font-weight: bold;\">ls | for\nfile in *.</span><span style=\"font-weight: bold;\">fas</span><span style=\"font-weight: bold;\">;\ndo </span><span style=\"font-weight: bold;\">cp</span><span style=\"font-weight: bold;\">\n$file /</span><span style=\"font-weight: bold;\">vol</span><span style=\"font-weight: bold;\">/</span><span style=\"font-weight: bold;\">targetfolder</span><span style=\"font-weight: bold;\">/;\ndone</span></div>"
+            ],
+            "guid": "e4yH)w.4<u",
+            "note_model_uuid": "84cc0462-fb71-11eb-860d-e03f49161c06",
+            "tags": [
+                "Parallelisierung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>kopiere alle .gbk Dateien im Ordner und Unterorndern von /some_path/ nach ~/Escherichia_genomes/</div><div><br></div><div><br></div><div>{{c1::for file in `find /some_path/ -iname&nbsp;“*.gbk”`}}</div>\n<div>do</div>\n<div>&nbsp; cp\n$file ~/Escherichia_genomes/</div>\n<div>done</div>",
+                ""
+            ],
+            "guid": "r:km*PDx}b",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": [
+                "Parallelisierung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Man zipt alle Dateien im aktuellen Verzeichnis mit gnu parallel durch:<div>{{c1::ls | parallel gzip}}<br></div>",
+                ""
+            ],
+            "guid": "nzcO|k2<RW",
+            "note_model_uuid": "84cbde30-fb71-11eb-90cb-e03f49161c06",
+            "tags": [
+                "Parallelisierung"
             ]
         }
     ]
